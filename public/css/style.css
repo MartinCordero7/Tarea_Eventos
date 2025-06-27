@@ -1,0 +1,131 @@
+#colorPreview {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #0d6efd;
+    vertical-align: middle;
+    margin-left: 10px;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 0px;
+    background: transparent;
+}
+
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: linear-gradient(120deg, #f0f4f8 0%, #d9e7fa 100%);
+    scrollbar-width: auto;
+    -ms-overflow-style: auto;
+}
+
+.card {
+    border-radius: 22px !important;
+    box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+    border: none;
+}
+
+.card-header {
+    border-radius: 22px 22px 0 0 !important;
+    font-family: 'Segoe UI Semibold', 'Arial', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.card-body {
+    border-radius: 0 0 22px 22px !important;
+    background: #fafdff;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #0d6efd;
+    letter-spacing: 0.5px;
+}
+
+.form-control, .form-select, .form-range {
+    border-radius: 12px;
+    border: 1.5px solid #b6d0f7;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus, .form-select:focus, .form-range:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.15rem rgba(13,110,253,.15);
+}
+
+.btn-primary, .btn-info {
+    border-radius: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+}
+
+.btn-primary:hover, .btn-info:hover {
+    background: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.valid-feedback-msg {
+    font-size: 0.95rem;
+    margin-top: 2px;
+    margin-bottom: 0;
+    padding-left: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background: #0d6efd;
+    border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+    background: #0d6efd;
+    border-radius: 50%;
+}
+
+input[type="range"]::-ms-thumb {
+    background: #0d6efd;
+    border-radius: 50%;
+}
+
+input[type="color"].form-control-color {
+    width: 48px !important;
+    height: 48px !important;
+    padding: 0;
+}
+
+#colorPreview {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #0d6efd;
+    vertical-align: middle;
+    margin-left: 10px;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 0px;
+    background: transparent;
+}
+
+@media (max-width: 600px) {
+    .card {
+        border-radius: 12px !important;
+    }
+    .card-header, .card-body {
+        border-radius: 12px !important;
+    }
+    .form-control, .form-select, .form-range {
+        border-radius: 8px;
+    }
+}
